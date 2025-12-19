@@ -48,20 +48,19 @@
                                     </p>
                                 </div>
                             </div>
-
-                                <form>
                                     <div class="card-footer">
-                                        <div class="mb-3">
-                                            <label for="formGroupExampleInput" class="form-label">Nombre</label>
-                                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Escribe tu nombre">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="formGroupExampleInput2" class="form-label">Apellido</label>
-                                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Escribe tu apellido">
-                                        </div>
-                                        <button type="submit" class="btn btn-primary">Asistiré</button>
+                                        <form action="https://test.jaureguialzo.com/server.php" method="POST">
+                                            <div class="mb-3">
+                                                <label for="nombre" class="form-label">Nombre</label>
+                                                <input type="text" name="nombre" class="form-control" id="nombre"  placeholder="Escribe tu nombre">
+                                            </div>
+                                                <div class="mb-3">
+                                                    <label for="apellido" class="form-label">Apellido</label>
+                                                    <input type="text" name="apellido" class="form-control" id="apellido" placeholder="Escribe tu apellido">
+                                                </div>
+                                                <button type="submit" class="btn btn-primary">Asistiré</button>
+                                        </form>
                                     </div>
-                                </form>
                             </div>
                         </div>
                     <div class="accordion-item" >
@@ -83,7 +82,6 @@
                                 <button type="submit" class="btn btn-primary">No Asistiré</button>
                             </div>
                             <p>Nos vemos el año que viene. Felices fiestas!</p>
-
                         </div>
                     </div>
                     </div>
